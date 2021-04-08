@@ -17,8 +17,8 @@ def print_star2():
 def main():
     space(10-1)
     print_star1()
-    for i in range(8):
-        space(8-i)
+    for i in range(8,0,-1):
+        space(i)
         print_star2()
     print_star1()
 
