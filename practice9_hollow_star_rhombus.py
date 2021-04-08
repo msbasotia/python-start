@@ -9,7 +9,10 @@ def print_star1():
     print()
 
 def print_star2():
-    print("*                 *")
+    print("*",end = "")
+    for i in range(17):
+        print(" ",end = "")
+    print("*")
 
 def main():
     space(10-1)
