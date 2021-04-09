@@ -14,10 +14,7 @@ def print_star_common():
 def print_star_end():
     print("*")
 
-
-def main():
-    print_star_main()
-
+def top_part():
     for i in range(4):
         print_star_common()
         space(1+2*i)
@@ -27,6 +24,7 @@ def main():
         space(1+2*i)
         print_star_end()
 
+def bottom_part():
     for i in range(4):
         print_star_common()
         space(1+2*(3-i))
@@ -36,6 +34,10 @@ def main():
         space(1+2*(3-i))
         print_star_end()
 
+def main():
+    print_star_main()
+    top_part()
+    bottom_part()
     print_star_main()
     
 main()
