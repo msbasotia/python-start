@@ -5,7 +5,7 @@ def sums(n):
         sum = sum+i*i
         i = i+1
     
-    print(f"sum of first {n} natural numbers is {sum}")
+    print(f"sum of square of first {n} natural numbers is {sum}")
 
 
 def main():
