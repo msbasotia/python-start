@@ -7,7 +7,8 @@ def is_prime(n):
         i = i+1
     return sum
 
-
+# by using this logic you would running the complete the loop for multiple times, even if you get the answer in 1st iteration.
+# Hence use a return statement
 
 def is_prime_status(n):
     if is_prime(n) == 0:
