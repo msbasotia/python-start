@@ -5,7 +5,6 @@ def is_perfect(n):
         if n % i == 0:
             sum = sum + i
         i = i + 1
-
     return n == sum
 
 
